@@ -1,0 +1,6 @@
+
+diff projects are stored in diff directories
+
+1. hkpl_book
+- this runs tests on examples in the book
+	Mobile Applications Development, with python in kivy framework
