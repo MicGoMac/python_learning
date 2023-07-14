@@ -1,8 +1,12 @@
+bare git of this project is at git@github.com:MicGoMac/python_learning.git
+
+home dir is python_learning
 
 diff projects are stored in diff directories
 
 1. hkpl_book
-- this runs tests on examples in the book
+	- this runs tests on examples in the book
 	Mobile Applications Development, with python in kivy framework
 
-2. mysql connect
+2. mysql
+	the name of the dir explains itself
