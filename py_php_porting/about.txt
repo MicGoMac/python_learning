@@ -1,0 +1,9 @@
+Python and PHP inter-matching codes:
+
+PHP<>Python
+
+Null<>None
+
+foreach( var as x)<>
+
+include<>import
