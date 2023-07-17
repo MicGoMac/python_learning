@@ -1,5 +1,7 @@
 bare git of this project is at git@github.com:MicGoMac/python_learning.git
 
+cloners include chromebook, macmini, do
+
 home dir is python_learning
 
 diff projects are stored in diff directories
