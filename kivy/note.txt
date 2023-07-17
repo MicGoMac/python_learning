@@ -1,1 +1,3 @@
-note
+note:
+
+gen_basics.php help generate the basic structure of a kivy project

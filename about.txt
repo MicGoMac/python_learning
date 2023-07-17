@@ -12,3 +12,6 @@ diff projects are stored in diff directories
 
 2. mysql
 	the name of the dir explains itself
+
+3. py_php_porting
+	list codes syntax py vs php. for reference
