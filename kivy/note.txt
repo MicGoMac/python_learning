@@ -1,3 +1,7 @@
 note:
 
 gen_basics.php help generate the basic structure of a kivy project
+
+dirs
+	kivy/basic_dir0x/ ( a series of numbered dir )
+ 	each contains basic structured files as template and sample.
