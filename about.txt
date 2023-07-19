@@ -15,3 +15,7 @@ diff projects are stored in diff directories
 
 3. py_php_porting
 	list codes syntax py vs php. for reference
+
+4. kivy 
+	generic kivy stuff other than that in the hkpl_book
+		tools, samples, templates
