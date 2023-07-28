@@ -1,0 +1,1 @@
+$pi = pathinfo($dir);$dn= $pi['dirname'];$bn= $pi['basename'];$ext= $pi['extension'];$fn= $pi['filename'];

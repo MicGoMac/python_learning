@@ -1,0 +1,1 @@
+﻿$templ= "aaaa%s, bbbb%s, cccc%s";$output = sprintf($templ, "1", "2", "3");

@@ -1,0 +1,1 @@
+﻿		if ($this->request->is('post') || $this->request->is('put')) {						//debug($this->request->data);			//exit();		}

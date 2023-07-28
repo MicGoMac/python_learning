@@ -1,0 +1,1 @@
+﻿ echo $this->Form->create('Form', array(		'inputDefaults' => array(			'div' => 'form-group',			'label' => array(				'class' => 'col col-md-2 control-label'			),			'wrapInput' => 'col col-md-8',			'class' => 'form-control'		),		'class' => 'well form-horizontal',		'enctype' => 'multipart/form-data'	));

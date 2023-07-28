@@ -1,0 +1,1 @@
+﻿for( $x=0; $x<count($a); $x++){	$item=$a[$x];}

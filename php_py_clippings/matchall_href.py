@@ -1,0 +1,1 @@
+﻿$pattern='/href=\".(.*?)\"/';preg_match_all( $pattern, $s, $matches);if ( count($matches[0]) != 0) {    print_r($matches[0]); }

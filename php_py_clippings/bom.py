@@ -1,0 +1,1 @@
+﻿$bom =( chr(0xEF) . chr(0xBB) . chr(0xBF) ); 

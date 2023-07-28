@@ -1,0 +1,1 @@
+﻿//a modern way of list dir in dir//leave ."*" empty for foldersfunction Listfolders($dir){	if ( substr( $dir , -1 ) != "/" ){		$dir .= "/";	}	$files = array_filter(glob($dir."*"), "is_dir");	return $files;}

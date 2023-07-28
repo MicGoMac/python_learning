@@ -1,0 +1,1 @@
+﻿echo password_hash("password", PASSWORD_BCRYPT, $options = ['cost' => 12 ]);

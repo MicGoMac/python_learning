@@ -1,0 +1,1 @@
+﻿function dirNoSep ( $whichdir ){    if ( substr( $whichdir , strlen($whichdir)-1, 1 ) ==DIRECTORY_SEPARATOR ) {        $whichdir =  substr( $whichdir , 0, strlen($whichdir)-1);    }    return $whichdir;}

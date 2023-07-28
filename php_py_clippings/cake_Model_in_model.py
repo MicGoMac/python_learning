@@ -1,0 +1,1 @@
+﻿$AnotherModel = ClassRegistry::init('AnotherModel');

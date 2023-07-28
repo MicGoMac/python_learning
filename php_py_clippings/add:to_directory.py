@@ -1,0 +1,1 @@
+﻿if (substr( $folder, strlen($folder)-1, 1 ) != "/" ) {     $folder=$folder."/";      echo $folder;    }

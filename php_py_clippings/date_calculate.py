@@ -1,0 +1,1 @@
+﻿function past_date($date, $days) {    $t1 = strtotime($date);    $t2 = $t1 - $days*3600*24;    return date("Y-m-d", $t2);}

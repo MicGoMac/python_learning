@@ -1,0 +1,1 @@
+﻿//----- clean away <base href= from $tLocalFile $regex = '#(<base href=)(.*)(">)#e';$cleaned_tLocalFile = preg_replace($regex,"(' ')",$tLocalFile); 		 

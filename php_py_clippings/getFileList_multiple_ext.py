@@ -1,0 +1,1 @@
+﻿//given $ext as an array, filter multiple times for supported file extfunction Listfiles($dir,$ext_arr, $filter){	if ( substr( $dir , -1 ) != "/" ){		$dir .= "/";	}	$output_arr=array();	foreach( $ext_arr as $ext){		$files = array_filter(glob($dir."*$ext"), $filter);		$output_arr=array_merge( $output_arr, $files);	}	return $output_arr;}

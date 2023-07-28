@@ -1,0 +1,1 @@
+﻿$arr=explode( "\n", $t);foreach ( $arr as $i ){	}

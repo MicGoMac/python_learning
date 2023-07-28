@@ -1,0 +1,1 @@
+﻿$dl_res= file_put_contents( $savetoDir.$lk , fopen( $domian.$lk, 'r'));

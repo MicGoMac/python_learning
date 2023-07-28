@@ -1,0 +1,1 @@
+﻿ $pattern='/watch\?v=.(.*)class/';            preg_match_all( $pattern, $data, $matches);                if ($matches[0]!= array()) {                                                       }

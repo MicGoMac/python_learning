@@ -1,0 +1,1 @@
+﻿//last param group consultant, consultant as key//policy_id is unique for every item, has many policy under key//{n}.TentativeRelSchedule is data under policy_id$by_consultants = hash::combine($result, '{n}.TentativeRelSchedule.policy_id', '{n}.TentativeRelSchedule', '{n}.TentativeRelSchedule.consultant');	

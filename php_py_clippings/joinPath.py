@@ -1,0 +1,1 @@
+﻿function joinpath( $_path, $_file) {    $lastchar = substr( $_path, strlen($_path)-1, 1);    if ( $lastchar!=DIRECTORY_SEPARATOR ) {        $_path .= DIRECTORY_SEPARATOR;    }    return $_path.$_file;}

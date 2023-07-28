@@ -1,0 +1,1 @@
+﻿function makeLink( $link, $description ){	echo '<a href="'.$link.'/">'.$description.'</a>';}
