@@ -1,1 +1,0 @@
-﻿echo $this->Form->input('id_be_deleted', ['type' => 'hidden', 'value'=>$id_be_deleted] );

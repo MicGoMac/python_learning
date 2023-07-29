@@ -1,1 +1,0 @@
-﻿$new_btn = $this->Html->link( "show_name" ,array('controller' => 'Policies','action' => 'action_function',$pid) ,array('class' => 'btn btn-default'));

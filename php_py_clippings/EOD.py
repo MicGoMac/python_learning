@@ -1,1 +1,0 @@
-﻿$t = <<<EOD         text hereEOD;
