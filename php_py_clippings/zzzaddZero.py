@@ -1,1 +1,0 @@
-﻿function add_Zero( $str ) {    while (strlen($str) < 3 ){    $str= "0".$str;    }    return $str;} 

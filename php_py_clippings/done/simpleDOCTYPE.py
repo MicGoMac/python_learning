@@ -1,5 +1,6 @@
-﻿echo '<!DOCTYPE HTML><head>
-<meta charset="UTF-8">
+﻿
+html_header = '''<!DOCTYPE HTML>
+<head><meta charset="UTF-8">
 <!-- <link rel="stylesheet" type="text/css" href="css.css"> -->
 <style>
 <!-- 
@@ -8,4 +9,4 @@ body {
   margin: 0;
 }
  -->
-</head>';
+</head>'''

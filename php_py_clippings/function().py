@@ -1,1 +1,0 @@
-﻿function process( $aaa, $bbb){}
