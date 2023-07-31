@@ -29,6 +29,6 @@ datetime_code={ "short_weekday":"%a", "weekday":"%A","weekday_num":"%w", "0day_n
 "week_num":"%U","0week_num":"%W",  "locale_datetime":"%c","locale_date":"%x","locale_time":"%X", "%":"%%", 
 }
 
-print(x.strftime( datetime_code["012hour"]))
+print(x.strftime( datetime_code["timezone"]))
 
 
