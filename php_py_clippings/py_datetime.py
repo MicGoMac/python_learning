@@ -12,10 +12,10 @@ print(x)
 
 x = datetime.datetime(2020, 5, 17, 18, 19, 20, 8)
 #this not working:
-print(x.timezone)
+#print(x.timezone)
 
 #day of month
-print(x.datetime.strftime("%d"))
+print(x.strftime("%d"))
 
 x = datetime.datetime.now()
 print(x)
@@ -29,7 +29,6 @@ datetime_code={ "short_weekday":"%a", "weekday":"%A","weekday_num":"%w", "0day_n
 "week_num":"%U","0week_num":"%W",  "locale_datetime":"%c","locale_date":"%x","locale_time":"%X", "%":"%%", 
 }
 
-print(x.datetime.strftime( datetime_code["min"]))
-
+print(x.strftime( datetime_code["012hour"]))
 
 
