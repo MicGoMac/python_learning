@@ -1,7 +1,7 @@
 # learn fr https://www.w3schools.com/python/python_datetime.asp
 
 import datetime
-
+import pytz
 
 #The datetime() class requires three parameters to create a date: year, month, day.
 #also takes parameters for time and timezone (hour, minute, second, microsecond, tzone), but they are optional,
@@ -10,9 +10,10 @@ import datetime
 x = datetime.datetime(2020, 5, 17)
 print(x)
 
-x = datetime.datetime(2020, 5, 17, 18, 19, 20, 8)
+tz=pytz.timezone("Asia/Hong_kong")
+x = datetime.datetime(2020, 5, 17, 18, 19, 20, 8, tzinfo=tz)
 #this not working:
-#print(x.timezone)
+print(x)
 
 #day of month
 print(x.strftime("%d"))
