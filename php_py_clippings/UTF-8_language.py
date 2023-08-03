@@ -1,1 +1,0 @@
-﻿mb_language('uni');mb_internal_encoding('UTF-8');
