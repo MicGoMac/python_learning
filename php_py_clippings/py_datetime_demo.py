@@ -11,7 +11,9 @@ import pytz
 x = datetime.datetime(2020, 5, 17)
 print("1>>" + str(x))
 
+#this be used on every script
 tz=pytz.timezone("Asia/Hong_kong")
+
 x = datetime.datetime(2020, 5, 17, 18, 19, 0, 0 , tzinfo=tz)
 #this not working:
 print(x)
