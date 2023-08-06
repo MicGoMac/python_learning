@@ -1,4 +1,16 @@
 import re
+'''
+doubt:
+full use of search obj, compare to php pregmatch
+
+test use findall on web scrapping
+
+confirm 
+sub == str_replace?
+
+split == split function?, but with multi result?
+
+'''
 
 pattern="quick.*fox"
 
