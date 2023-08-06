@@ -2,7 +2,8 @@ import re
 
 pattern="quick.*fox"
 
-t="The quick brown fox jumps over the lazy dog The quick brown fox jumps over the lazy dog"
+t='''The quick brown fox jumps over the lazy dog The quick brown fox jumps over the lazy dog
+not cat not fox end'''
 
 res = (re.search(pattern, t))
 #res = None if no matched
