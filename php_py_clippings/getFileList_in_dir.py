@@ -1,6 +1,7 @@
-﻿/a modern way of get files in dir
-//e.g. Listfiles(sdir, ".JPG", 'is_file')
-//leave ext empty for folders
+﻿import os
+
+#Listfiles( dir, ".JPG", 'is_file')
+
 def Listfiles(dir,ext, filter){
 	if ( substr( dir , -1 ) != "/" ):
 		dir .= "/"

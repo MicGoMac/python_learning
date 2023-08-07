@@ -7,3 +7,5 @@ Null<>None
 foreach( var as x)<>
 
 include<>import
+
+explode<>split:txt.split("\n")
