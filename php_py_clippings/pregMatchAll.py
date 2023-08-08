@@ -11,6 +11,8 @@ sub == str_replace?
 split == split function?, but with multi result?
 
 '''
+print("--Demo of re methods--")
+
 
 pattern="quick.*fox"
 
@@ -19,21 +21,24 @@ not cat not fox end'''
 
 res = (re.search(pattern, t))
 #res = None if no matched
-print("search returns obj")
+print("1. re.search returns obj")
 print(res)
+
 print(res.span())
 print(res.group())
 print(res.string)
 
 
-print("\nfindall")
+print("\n2. re.findall")
 res = (re.findall(pattern, t))
 print(res)
 
-print("\nsplit")
+print("\n3. re.split")
 res = (re.split(pattern, t))
 print(res)
 
-print("\nreplace")
+print("\n4. re.replace")
 res = (re.sub(pattern, "The cat", t))
 print(res)
+
+
