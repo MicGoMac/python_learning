@@ -4,34 +4,45 @@
 import datetime
 import pytz
 
-#The datetime() class requires three parameters to create a date: year, month, day.
-#also takes parameters for time and timezone (hour, minute, second, microsecond, tzone), but they are optional,
+#The datetime() class basic creation: year, month, day.
+#optional + (hour, minute, second, microsecond, tzone)
 
 #datetime is an obj inside datetime, so the datetime.datetime
 x = datetime.datetime(2020, 5, 17)
-print("1>>" + str(x))
+print("1>>simple yyyy-mm-dd" + str(x))
 
 #this be used on every script
 tz=pytz.timezone("Asia/Hong_kong")
 
 x = datetime.datetime(2020, 5, 17, 18, 19, 0, 0 , tzinfo=tz)
-#this not working:
+print ("the full data datetime with tz")
 print(x)
 
 #day of month
-print(x.strftime("%d"))
+print( "day of month:" + x.strftime("%d"))
 
 x = datetime.datetime.now(tz)
+print("Now with tz:")
 print(x)
 print(x.year)
 
+print( "take away tz")
 #delete timezone
 y=x.replace(tzinfo=None)
 print(y)
 print("\n")
 
 frtimestamp  = datetime.datetime.fromtimestamp(1627759944, tz=tz)
+print( "timestamp to date w tz ")
 print(frtimestamp)
+
+totimestamp = int( round( datetime.datetime.timestamp(frtimestamp) ))
+print(totimestamp)
+
+#add one day's seconds to timestamp, to advance one day
+oneday = totimestamp + (60*60*24)
+oneday_frtimestamp  = datetime.datetime.fromtimestamp( oneday)
+print(oneday_frtimestamp)
 
 datetime_code={ "short_weekday":"%a", "weekday":"%A","weekday_num":"%w", "0day_num":"%d","day_num":"%-d",  
  "short_month":"%b","0month_num":"%m","month_num":"%-m","month":"%B",  "year":"%Y","0short_year":"%y","short-yearw":"%-y",
