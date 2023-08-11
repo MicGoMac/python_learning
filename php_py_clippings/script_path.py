@@ -1,1 +1,1 @@
-﻿realpath(dirname(__FILE__));
+﻿realpath(dirname(__FILE__))
