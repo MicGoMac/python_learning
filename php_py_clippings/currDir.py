@@ -1,1 +1,0 @@
-﻿$currDir=dirname(__FILE__)."/";
