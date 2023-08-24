@@ -1,6 +1,8 @@
 ﻿
 #case _ is default, no break needed in each case
 
+lang="Python"
+
 match lang:
     case "JavaScript":
         print("a web developer.")
