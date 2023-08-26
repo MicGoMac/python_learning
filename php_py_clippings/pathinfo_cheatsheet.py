@@ -1,28 +1,27 @@
+import os.path as pi
 
-import os.path
-dir ="/home/micgomac/python_learning/php_py_clippings"
+dir ="/home/micgomac/python_learning/php_py_clippings/"
 
-afile=dir + "myfile.php"
+afile=dir + "test.py"
 
-bname=os.path.basename(dir)
-bdir=os.path.dirname(dir)
+bname=pi.basename(afile)
+bdir=pi.dirname(afile)
 
-fexist=os.path.exists(dir)
-f_isfile=os.path.isfile(afile)
-f_isdir=os.path.isdir(afile)
+print( "basename & dirname="+ bname + "," + bdir)
+
+fexist=pi.exists(afile)
+f_isfile=pi.isfile(afile)
+f_isdir=pi.isdir(afile)
+
+if (fexist and f_isfile):
+    print( "file exist ")
 
 p="~/python_learning/php_py_clippings"
 #expand to full path /home/xxx/....
 # path,isabs checks if full path
-full_path_str = os.path.expanduser(p)
+full_path_str = pi.expanduser(p)
 
-ext = os.path.splitext(afile)
+ext = pi.splitext(afile)
+print ("extension=")
 print(ext)
 
-'''
-$pi = pathinfo($dir);
-$dn= $pi['dirname'];
-$bn= $pi['basename'];
-$ext= $pi['extension'];
-$fn= $pi['filename'];
-'''
